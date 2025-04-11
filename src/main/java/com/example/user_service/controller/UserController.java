@@ -38,6 +38,9 @@ public class UserController {
 		
 	}
 	
-	
+	@GetMapping("/hi")
+	public String getUser() {
+		return "welcome to tadipatri";
+	}
 
 }
